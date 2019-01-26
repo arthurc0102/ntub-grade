@@ -4,7 +4,6 @@ import requests
 
 from argparse import ArgumentParser, ArgumentTypeError
 from bs4 import BeautifulSoup
-from collections import OrderedDict
 
 
 URL = 'http://140.131.110.76/JMobile_STD/AjaxPage/SRHGRD_Years_ajax.aspx'
