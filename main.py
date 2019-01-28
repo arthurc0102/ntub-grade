@@ -101,9 +101,6 @@ def get_average(grades):
     credit_sum = 0
 
     for grade in grades:
-        if grade['score'] == 888.0:
-            continue
-
         score_sum += grade['credit'] * grade['score']
         credit_sum += grade['credit']
 
